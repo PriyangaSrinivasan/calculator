@@ -1,0 +1,50 @@
+#title{
+  text-align: center;
+}
+#description{
+  text-align: center;
+}
+.container {
+    background-color: chocolate;
+    padding:1rem;
+    margin: auto;
+    height: 24rem;
+    width: 18rem;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    border:1px;
+    border-radius: 7px;
+    box-shadow: 2px 2px 4px 4px red;
+    gap: 5px;
+  }
+  #result {
+    margin: 1.2rem 0.5rem 1rem 0.5rem;
+    color: rgba(0, 0, 0, 0.5);
+    grid-column-start: 1;
+    grid-column-end: 5;
+    padding-left: 1rem;
+    border: 0;
+    background-color: rgb(224, 219, 219);
+    font-size: large;
+    
+  }
+  .button{
+   border:none;
+  
+  }
+  #multiply,#division,#subtract,#add{
+    color: rgb(97, 138, 199);
+    font-weight: bold;
+    border:none;
+  }
+  #equal{
+    grid-column-start: 3;
+    grid-column-end: 5;
+    background-color:rgb(112, 148, 201);
+    font-weight: 600 !important;
+    color: aliceblue;
+    border:none;
+  }
+  #clear{
+    color: red;
+  }
